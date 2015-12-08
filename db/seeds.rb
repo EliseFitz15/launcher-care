@@ -3,4 +3,19 @@
 #
 # Example:
 #
-#   Person.create(first_name: 'Eric', last_name: 'Kelly')
+a =  Patient.create(first_name: 'Marshall', last_name: 'Mathers', birthdate: "1972-10-17")
+b =  Patient.create(first_name: 'Edward', last_name: 'Hyde', birthdate: "1986-1-5")
+c =  Patient.create(first_name: 'Christopher', last_name: 'Walken', birthdate: "1943-3-31")
+d =  Patient.create(first_name: 'Bill', last_name: 'Murray', birthdate: "1950-9-21")
+j =  Patient.create(first_name: 'Bill', last_name: 'Murray', birthdate: "1997-8-1")
+
+e = Doctor.create(first_name: 'Theodor', last_name: 'Suess', specialty: "Writer")
+f = Doctor.create(first_name: 'Dre', last_name: 'Young', specialty: "Rap")
+g = Doctor.create(first_name: 'Henry', last_name: 'Jeckll', specialty: "Physician" )
+h = Doctor.create(first_name: 'John', last_name: 'Dolittle', specialty: "Veterinarian")
+i = Doctor.create(first_name: 'Drake', last_name: 'Ramoray', specialty: "Surgeon" )
+
+# Relationship.create(patient: a, doctor: f)
+# Relationship.create(patient: b, doctor: g)
+# Relationship.create(patient: c, doctor: e)
+# Relationship.create(patient: j, doctor: h)
