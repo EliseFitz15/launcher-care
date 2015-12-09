@@ -15,11 +15,11 @@ g = Doctor.create(first_name: 'Henry', last_name: 'Jeckll', specialty: "Physicia
 h = Doctor.create(first_name: 'John', last_name: 'Dolittle', specialty: "Veterinarian")
 i = Doctor.create(first_name: 'Drake', last_name: 'Ramoray', specialty: "Surgeon" )
 
-Relationship.create(patient: a, doctor: f)
-Relationship.create(patient: b, doctor: g)
-Relationship.create(patient: c, doctor: e)
-Relationship.create(patient: j, doctor: h)
-
-Appointment.create(location: "South Bay Veterinary Clinic", date: "2015-12-8", timeslot: "2:00pm", patient: j, doctor: h)
-Appointment.create(location: "8 Mile Road", date: "2015-12-10", timeslot: "4:00pm", patient: a, doctor: f)
-Appointment.create(location: "Rock Bottom", date: "2015-12-12", timeslot: "6:00pm", patient: d, doctor: g)
+# Relationship.create(patient: a, doctor: f)
+# Relationship.create(patient: b, doctor: g)
+# Relationship.create(patient: c, doctor: e)
+# Relationship.create(patient: j, doctor: h)
+#
+# Appointment.create(location: "South Bay Veterinary Clinic", date: "2015-12-8", timeslot: "2:00pm", patient: j, doctor: h)
+# Appointment.create(location: "8 Mile Road", date: "2015-12-10", timeslot: "4:00pm", patient: a, doctor: f)
+# Appointment.create(location: "Rock Bottom", date: "2015-12-12", timeslot: "6:00pm", patient: d, doctor: g)
