@@ -4,8 +4,6 @@ class CreateAppointments < ActiveRecord::Migration
       t.string :location, null: false
       t.date :date, null: false
       t.string :timeslot, null: false
-      t.belongs_to :doctor, null: false
-      t.belongs_to :patient
 
       t.timestamp null: false
     end

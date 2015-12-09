@@ -17,11 +17,9 @@ ActiveRecord::Schema.define(version: 20151208000113) do
   enable_extension "plpgsql"
 
   create_table "appointments", force: :cascade do |t|
-    t.string  "location",   null: false
-    t.date    "date",       null: false
-    t.string  "timeslot",   null: false
-    t.integer "doctor_id",  null: false
-    t.integer "patient_id"
+    t.string "location", null: false
+    t.date   "date",     null: false
+    t.string "timeslot", null: false
   end
 
   create_table "doctors", force: :cascade do |t|
