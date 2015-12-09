@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20151208000113) do
     t.date    "date",       null: false
     t.string  "timeslot",   null: false
     t.integer "doctor_id",  null: false
-    t.integer "patient_id", null: false
+    t.integer "patient_id"
   end
 
   create_table "doctors", force: :cascade do |t|

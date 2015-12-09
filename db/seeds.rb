@@ -22,4 +22,6 @@ Relationship.create(patient: j, doctor: h)
 
 Appointment.create(location: "South Bay Veterinary Clinic", date: "2015-12-8", timeslot: "2:00pm", patient: j, doctor: h)
 Appointment.create(location: "8 Mile Road", date: "2015-12-10", timeslot: "4:00pm", patient: a, doctor: f)
-Appointment.create(location: "Rock Bottom", date: "2015-12-12", timeslot: "6:00pm", patient: d, doctor: g)
+Appointment.create(location: "Rock Bottom", date: "2015-12-11", timeslot: "6:00pm", doctor: h)
+Appointment.create(location: "Rock Bottom", date: "2015-12-11", timeslot: "6:00pm", doctor: e)
+Appointment.create(location: "Rock Bottom", date: "2015-12-12", timeslot: "6:00pm", doctor: e)
