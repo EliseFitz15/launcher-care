@@ -7,7 +7,6 @@ class Doctor < ActiveRecord::Base
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :specialty, presence: true
-  validates :location, presence: true
 
   def patients
     patients = [] | rel_patients | app_patients
