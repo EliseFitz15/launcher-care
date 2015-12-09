@@ -20,6 +20,7 @@ k = Doctor.create(first_name: 'Michaela', last_name: 'Quinn', specialty: "Medici
 # Relationship.create(patient: b, doctor: g)
 # Relationship.create(patient: c, doctor: e)
 # Relationship.create(patient: j, doctor: h)
+# Relationship.create(patient: b, doctor: k)
 #
 # Appointment.create(location: "South Bay Veterinary Clinic", date: "2015-12-8", timeslot: "2:00pm", patient: j, doctor: h)
 # Appointment.create(location: "8 Mile Road", date: "2015-12-10", timeslot: "4:00pm", patient: a, doctor: f)
